@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medix QR - Medical Information App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <h1>Medix QR</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Quick, Secure, Reliable Healthcare Access</h2>
+      <p>Access your medical history instantly with our QR code technology. Secure, reliable, and ready in emergencies.</p>
+      <a href="#features" class="cta-btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>Key Features</h2>
+    <div class="feature-card">
+      <h3>Emergency Access</h3>
+      <p>Scan a personalized QR code to instantly retrieve critical medical data during emergencies.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Data Security</h3>
+      <p>Ensures privacy through encryption, allowing only authorized users to access data.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Real-time Updates</h3>
+      <p>Users can easily update their medical information through the app as needed.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Medix QR</h2>
+    <p>Medix QR revolutionizes healthcare by providing quick access to vital medical information. Our app enhances patient safety, especially in critical situations when fast decisions are needed.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form" onsubmit="handleFormSubmit(event)">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit" class="cta-btn">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Medix QR. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
